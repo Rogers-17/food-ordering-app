@@ -1,7 +1,7 @@
 import { Redirect, Slot } from 'expo-router';
 import React from 'react';
 
-const _layout = () => {
+export default function Layout () {
 
   const isAuthenticated = false;
 
@@ -13,4 +13,3 @@ const _layout = () => {
   )
 }
 
-export default _layout
